@@ -15,6 +15,10 @@ A public Codex skill for analyzing reference videos and designing expressive, ve
 - 用代表帧、密集转场图板、完整媒体检查和实际页面验证交付。
 - 用方向、执行蓝图和决策历史维持长任务连续性。
 
+## 视频对照案例
+
+[链接4：Reconstruct 参考视频与 V3 复刻视频](examples/link-04/README.md)，附观看方法、改进和已知差异。
+
 ## 安装
 
 Windows PowerShell：
@@ -47,8 +51,8 @@ Use $qingyv-video-workflow to analyze this reference and design a verifiable mot
 
 ## 适用边界
 
-这个 Skill 提供判断流程和验证方法，不包含参考视频、私有素材或第三方预设，也不会自动授予发布和部署权限。不同项目仍需根据真实内容重新设计动作。
+这个 Skill 提供判断流程和验证方法，附有独立的视频对照案例，不包含私有项目资料或第三方预设，也不会自动授予发布和部署权限。不同项目仍需根据真实内容重新设计动作。
 
 ## License
 
-MIT
+工作流文档和代码采用 MIT。示例参考视频及音轨等第三方素材不包含在 MIT 授权中，详见案例说明。
