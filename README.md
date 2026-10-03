@@ -2,6 +2,22 @@
 
 A public Codex skill for analyzing reference videos and designing expressive, verifiable motion films.
 
+## 视频对照：Reconstruct
+
+先看参考与复刻效果，再了解制作方法。复刻版对应原片前 **10 秒**，采用 Remotion 帧驱动动画。
+
+### 参考视频 · 16.58 秒
+
+https://github.com/user-attachments/assets/c71ee897-e19b-4105-9ca2-db0e9918b848
+
+### V3 复刻视频 · 10 秒
+
+https://github.com/user-attachments/assets/53cad14d-2873-4bd6-a46f-f95f37c0f2a1
+
+[原作来源](https://v.douyin.com/qiuYNJbhRLY/) · [观看方法、改进与已知差异](examples/link-04/README.md)。花形拓扑、字体、网格透视与碎片曲线仍有差异。
+
+## 工作流
+
 它把视频制作拆成一条可复用链路：
 
 `产品用途 -> 表达动词 -> 起始状态 -> 动作过程 -> 结果落点 -> 下个镜头`
@@ -14,10 +30,6 @@ A public Codex skill for analyzing reference videos and designing expressive, ve
 - 用确定性的帧驱动代码制作，适用于 Remotion，也可迁移到其他时间线系统。
 - 用代表帧、密集转场图板、完整媒体检查和实际页面验证交付。
 - 用方向、执行蓝图和决策历史维持长任务连续性。
-
-## 视频对照案例
-
-[链接4：Reconstruct 参考视频与 V3 复刻视频](examples/link-04/README.md)，附观看方法、改进和已知差异。
 
 ## 安装
 
