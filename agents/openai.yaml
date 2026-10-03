@@ -1,0 +1,7 @@
+interface:
+  display_name: "Qingyv Video Workflow"
+  short_description: "Analyze references and direct expressive motion videos"
+  default_prompt: "Use $qingyv-video-workflow to analyze this reference and design a verifiable motion-video workflow."
+
+policy:
+  allow_implicit_invocation: true
